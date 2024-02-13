@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div>
+    <div className="container">
       <nav
         className="navbar navbar-expand-lg navbar-light bg-[#FFFFFF]"
         style={{ backgroundColor: "#FFFFFF", boxShadow: "rgba(0, 0, 0, 0.08)", display: "flex", justifyContent: "center", alignItems: "center" }}

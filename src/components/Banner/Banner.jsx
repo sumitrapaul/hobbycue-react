@@ -34,12 +34,10 @@ const Banner = () => {
           </div>
           <div className="d-grid gap-2 mx-auto">
             <button
-              className="btn"
+              className="btn mb-3 d-flex align-items-center"
               style={{
                 border: "2px solid #8064A2",
-                display: "flex",
-                alignItems: "center",
-              }}
+                }}
               type="button"
             >
               <img
@@ -47,16 +45,14 @@ const Banner = () => {
                 src="/public/Google.png"
                 alt=""
               />
-              <span style={{ marginLeft: "auto", marginRight: "auto" }}>
+              <span className="mx-auto">
                 Continue with Google
               </span>
             </button>
             <button
-              className="btn"
+              className="btn mb-3 d-flex align-items-center"
               style={{
                 border: "2px solid #8064A2",
-                display: "flex",
-                alignItems: "center",
               }}
               type="button"
             >
@@ -65,49 +61,42 @@ const Banner = () => {
                 src="/public/Facebook.png"
                 alt=""
               />
-              <span style={{ marginLeft: "auto", marginRight: "auto" }}>
+              <span className="mx-auto">
                 Continue with Facebook
               </span>
             </button>
           </div>
 
+          <div>
+            <div className="d-flex align-items-center mt-3">
+            <hr className="flex-grow-1 mr-2"></hr><span className="mx-3">Or connect with</span><hr className="flex-grow-1 mr-2"></hr>
+            </div>
+           
           
+          </div>
 
           <form>
-            <div className="mb-3">
-              <label htmlFor="exampleInputEmail1" className="form-label">
-                Email address
-              </label>
+            <div className="mb-4 mt-4">
               <input
                 type="email"
                 className="form-control"
+                placeholder="Email"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
               />
-              <div id="emailHelp" className="form-text">
-                We will never share your email with anyone else.
-              </div>
             </div>
-            <div className="mb-3">
-              <label htmlFor="exampleInputPassword1" className="form-label">
-                Password
-              </label>
+            <div className="mb-3 d-flex justify-content-between align-items-center position-relative">
               <input
                 type="password"
+                placeholder="Password"
                 className="form-control"
                 id="exampleInputPassword1"
               />
+             <div className="position-absolute end-0 px-3">
+             <img className="ml-8" src="/public/Password.png" alt="" />
+             </div>
             </div>
-            <div className="mb-3 form-check">
-              <input
-                type="checkbox"
-                className="form-check-input"
-                id="exampleCheck1"
-              />
-              <label className="form-check-label" htmlFor="exampleCheck1">
-                Check me out
-              </label>
-            </div>
+          
             <button type="submit" className="btn btn-primary">
               Submit
             </button>

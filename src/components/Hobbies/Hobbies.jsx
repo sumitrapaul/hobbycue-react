@@ -18,6 +18,7 @@ const Hobbies = () => {
               <span style={{ color: "#0096C8" }}>Community...</span>
             </h1>
           </div>
+          <div className="d-flex justify-content-between">
           <div>
             <button
               className="btn btn-outline mx-5"
@@ -33,6 +34,11 @@ const Hobbies = () => {
               Get started
             </button>
           </div>
+          <div>
+            <a href="#header"><img className="px-5" src="/public/Group 77 (1).png" alt="" /></a>
+          </div>
+          </div>
+         
         </div>
         <div className="d-flex justify-content-center align-items-center">
           <img

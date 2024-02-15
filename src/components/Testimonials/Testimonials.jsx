@@ -2,9 +2,9 @@
 
 const Testimonials = () => {
     return (
-        <div>
+        <div className="mt-5">
             <div className="container px-4 d-flex justify-content-center align-items-center" style={{ height: "450px", backgroundColor: "#FFFFFF" }}>
-      <div style={{height: "380px", backgroundColor: "#F7F5F9"}} className="card w-75 mx-auto">
+      <div style={{backgroundColor: "#F7F5F9"}} className="card w-75 mx-auto">
         <div className="card-body">
             <div className="d-flex gap-4 mb-4">
             <div className="d-flex justify-conternt-center align-items-center"><img className="w-100" src="/public/quote.png" alt="" /></div>

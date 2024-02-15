@@ -1,8 +1,9 @@
+import './Explores.css'
 const Explores = () => {
   return (
 <div className="container mx-auto row mt-5">
 <div className="col-lg-6 mb-4">
-      <div className="card h-100">
+      <div className="card h-100 firstCard" style={{transition: "background-color 0.3s ease"}}>
         <div className="card-body">
           <div className="d-flex gap-4 justify-content-start">
             <div>
@@ -32,7 +33,7 @@ const Explores = () => {
       </div>
       </div>
       <div className="col-lg-6 mb-4">
-      <div className="card h-100">
+      <div className="card h-100 secondCard">
         <div className="card-body">
           <div className="d-flex gap-4 justify-content-start">
             <div>
@@ -63,7 +64,7 @@ const Explores = () => {
       </div>
       </div>
       <div className="col-lg-6 mb-4">
-      <div className="card h-100">
+      <div className="card h-100 thirdCard">
         <div className="card-body">
           <div className="d-flex gap-4 justify-content-start">
             <div>
@@ -93,7 +94,7 @@ const Explores = () => {
       </div>
       </div>
       <div className="col-lg-6 mb-4">
-      <div className="card h-100">
+      <div className="card h-100 fourthCard">
         <div className="card-body">
           <div className="d-flex gap-4 justify-content-start">
             <div>

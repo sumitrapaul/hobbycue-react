@@ -1,0 +1,41 @@
+.firstCard:hover {
+    background-color: #8064A2;
+    color: white;
+}
+.secondCard:hover {
+    background-color: #77933C;
+    color: white;
+}
+.thirdCard:hover {
+    background-color: #C0504D;
+    color: white;
+}
+.fourthCard:hover {
+    background-color: #0096C8;
+    color: white;
+}
+
+.firstCard:hover button {
+  visibility: hidden;
+}
+.firstCard:hover img {
+    filter: brightness(0) invert(1)
+}
+.secondCard:hover button {
+  visibility: hidden;
+}
+.secondCard:hover img {
+    filter: brightness(0) invert(1)
+}
+.thirdCard:hover button {
+  visibility: hidden;
+}
+.thirdCard:hover img {
+    filter: brightness(0) invert(1)
+}
+.fourthCard:hover button {
+  visibility: hidden;
+}
+.fourthCard:hover img {
+    filter: brightness(0) invert(1)
+}

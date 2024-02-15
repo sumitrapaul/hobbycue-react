@@ -15,7 +15,7 @@ const Hobbies = () => {
               className="text-xl lg:text-5xl fst-italic p-5"
             >
               Your <span style={{ color: "#8064A2" }}>Hobby,</span> Your
-              <span style={{ color: "#0096C8" }}>Community...</span>
+               <span style={{ color: "#0096C8" }}> Community...</span>
             </h1>
           </div>
           <div className="d-flex justify-content-between">

@@ -1,9 +1,9 @@
 const Testimonials = () => {
   return (
-    <div className="mt-5">
+    <div className="mb-lg-2" style={{marginTop: "50px", marginBottom: "auto"}}>
       <div
-        className="container px-4 d-flex justify-content-center align-items-center"
-        style={{ height: "450px", backgroundColor: "#FFFFFF" }}
+        className="container px-4 "
+        style={{ height: "auto"}}
       >
         <div
           style={{ backgroundColor: "#F7F5F9" }}
@@ -31,10 +31,14 @@ const Testimonials = () => {
               activities in my city, all under one roof, is an excellent idea
               and I highly recommend it.
             </p>
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="container">
+            <div className="row justify-content-center align-items-center">
+            <div className="col-lg-6">
+
+              
               <div className="position-relative">
                 <img
-                  style={{ height: "70px", width: "500px" }}
+                  style={{ height: "70px", width: "100%" }}
                   src="/public/Rectangle 85.png"
                   alt=""
                 />
@@ -75,13 +79,8 @@ const Testimonials = () => {
                       alt=""
                     />
 
-                    <div
-                      style={{
-                        width: "250px",
-                        height: "2px",
-                        border: "1px",
-                        backgroundColor: "white",
-                      }}
+                    <div style={{width: "60px"}} className="border border-1 border-white"
+                     
                     ></div>
                     <div style={{ color: "#8064A2" }} className="mx-2">
                       0:00
@@ -104,16 +103,20 @@ const Testimonials = () => {
                   />
                 </div>
               </div>
-              <div style={{ marginLeft: "100px" }} className="d-flex gap-3">
+              </div>
+              <div className="col-lg-6 mt-4">
+              <div className="d-flex gap-3">
                 <div className="d-flex justify-content-center align-items-center">
                   <img src="/public/Ellipse 12.png" alt="" />
                 </div>
-                <div className="d-flex-col justify-content-center align-items-center mt-3">
+                <div className="d-flex flex-column justify-content-center align-items-center mt-3">
                   <h6 className="fs-12" style={{ color: "#8064A2" }}>
                     Shubha Nagarajan
                   </h6>
                   <p style={{ color: "#0096C8" }}>Classical Dancer</p>
                 </div>
+              </div>
+              </div>
               </div>
             </div>
           </div>

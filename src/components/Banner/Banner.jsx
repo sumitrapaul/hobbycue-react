@@ -14,7 +14,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="container" style={{backgroundColor: "#F7F5F9"}}>
+    <div className="container" style={{ backgroundColor: "#F7F5F9" }}>
       <div className="row mt-5">
         <div className="col-lg-6 mt-3">
           <h1
@@ -36,7 +36,12 @@ const Banner = () => {
             promote yourself, your students, products, services or events. Hop
             on your hobbyhorse and enjoy the ride.
           </p>
-          <img className="img-fluid" style={{maxWidth: "100%", width: "700px",}} src="/public/Group 27.png" alt="" />
+          <img
+            className="img-fluid"
+            style={{ maxWidth: "100%", width: "700px" }}
+            src="/public/Group 27.png"
+            alt=""
+          />
         </div>
 
         <div className="col-lg-6">

@@ -5,17 +5,16 @@ import Hobbies from "../../components/Hobbies/Hobbies";
 import Testimonials from "../../components/Testimonials/Testimonials";
 // import Explores from "../../components/Explores/Explores";
 
-
 const Home = () => {
-    return (
-        <div>
-           <Banner></Banner> 
-           <Explores></Explores>
-           <AddOwn></AddOwn>
-           <Testimonials></Testimonials>
-           <Hobbies></Hobbies>
-        </div>
-    );
+  return (
+    <div>
+      <Banner></Banner>
+      <Explores></Explores>
+      <AddOwn></AddOwn>
+      <Testimonials></Testimonials>
+      <Hobbies></Hobbies>
+    </div>
+  );
 };
 
 export default Home;

@@ -247,7 +247,7 @@ const Header = () => {
 
           <form className="d-flex">
             <button
-              className="btn btn-outline mt-2"
+              className="btn btn-outline mt-4"
               style={{
                 border: "1px solid #8064A2",
                 borderRadius: "8px",

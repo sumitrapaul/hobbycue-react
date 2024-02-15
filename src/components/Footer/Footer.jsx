@@ -74,29 +74,36 @@ const Footer = () => {
             <h5 className="fw-bold fs-6 mt-5">Invite Friends</h5>
             <form className="container-fluid">
               <div className="input-group">
-               
                 <input
                   type="text"
                   className="form-control"
-                  style={{marginLeft: "-10px", border: "1px solid #8064A2",}}
+                  style={{ marginLeft: "-10px", border: "1px solid #8064A2" }}
                   placeholder="Email ID"
                   aria-label="Email ID"
                   aria-describedby="basic-addon1"
                 />
-                 <span style={{
-                border: "1px solid #8064A2",
-                backgroundColor: "#8064A2",
-                color: "white",
-                
-              }} className="input-group-text fs-6" id="basic-addon1">
+                <span
+                  style={{
+                    border: "1px solid #8064A2",
+                    backgroundColor: "#8064A2",
+                    color: "white",
+                  }}
+                  className="input-group-text fs-6"
+                  id="basic-addon1"
+                >
                   Invite
                 </span>
               </div>
             </form>
           </div>
         </div>
-        <div style={{backgroundColor: "#F7F5F9"}} className="d-flex justify-content-center align-items-center">
-            <p style={{color: "#08090A"}} className="fw-medium mt-3 fs-6">© Purple Cues Private Limited</p>
+        <div
+          style={{ backgroundColor: "#F7F5F9" }}
+          className="d-flex mt-3 justify-content-center align-items-center"
+        >
+          <p style={{ color: "#08090A" }} className="fw-medium mt-3 fs-6">
+            © Purple Cues Private Limited
+          </p>
         </div>
       </div>
     </footer>

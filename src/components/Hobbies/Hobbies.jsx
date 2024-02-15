@@ -1,6 +1,6 @@
 const Hobbies = () => {
   return (
-    <div>
+    <div style={{marginTop: "10px"}}>
       <div
         className="container px-4 d-flex justify-content-center align-items-center position-relative"
         style={{ height: "100vh" }}
@@ -19,30 +19,31 @@ const Hobbies = () => {
             </h1>
           </div>
           <div className="d-flex justify-content-between">
-          <div>
-            <button
-              className="btn btn-outline mx-5"
-              style={{
-                border: "1px solid #8064A2",
-                borderRadius: "8px",
-                backgroundColor: "#8064A2",
-                color: "white",
-                margin: "2px",
-              }}
-              type="submit"
-            >
-              Get started
-            </button>
+            <div>
+              <button
+                className="btn btn-outline mx-5"
+                style={{
+                  border: "1px solid #8064A2",
+                  borderRadius: "8px",
+                  backgroundColor: "#8064A2",
+                  color: "white",
+                  margin: "2px",
+                }}
+                type="submit"
+              >
+                Get started
+              </button>
+            </div>
+            <div>
+              <a href="#header">
+                <img className="px-5" src="/public/Group 77 (1).png" alt="" />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href="#header"><img className="px-5" src="/public/Group 77 (1).png" alt="" /></a>
-          </div>
-          </div>
-         
         </div>
         <div className="d-flex justify-content-center align-items-center">
           <img
-            style={{ position: "absolute", top: "50%" }}
+            style={{ position: "absolute", top: "50%", width: "100%" }}
             src="/public/Group 99.png"
             alt=""
           />
